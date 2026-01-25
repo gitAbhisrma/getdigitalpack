@@ -25,6 +25,16 @@ export default function Home() {
     { name: "Wedding Title Pack", icon: Type, image: "https://nextskillup.in/wp-content/uploads/2025/11/20.webp" },
     { name: "100+ After Effects Plugins", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/18.webp" },
     { name: "100+ Backgrounds", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/19.webp" },
+    { name: "200+ Cinematic Luts", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/21.webp" },
+    { name: "3000+ Sound Effects", icon: Music, image: "https://nextskillup.in/wp-content/uploads/2025/11/22.webp" },
+    { name: "200+ Animated Emoji", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/23.webp" },
+    { name: "100+ Callout Graphics", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/24.webp" },
+    { name: "1500+ Lower Third Pack", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/25.webp" },
+    { name: "500+ Stock Videos", icon: Film, image: "https://nextskillup.in/wp-content/uploads/2025/11/26.webp" },
+    { name: "Motion Graphic Pack", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/27.webp" },
+    { name: "Animated Title Pack", icon: Type, image: "https://nextskillup.in/wp-content/uploads/2025/11/28.webp" },
+    { name: "1000+ Royalty Free Music", icon: Music, image: "https://nextskillup.in/wp-content/uploads/2025/11/29.webp" },
+    { name: "Viral Meme Pack", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/30.webp" },
   ];
 
   const categories = [
