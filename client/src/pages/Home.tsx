@@ -82,9 +82,9 @@ export default function Home() {
             
             <div className="mb-12">
               <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
-                <Button className="btn-cta text-2xl w-full md:w-auto animate-pulse" style={{paddingTop: '18px', paddingRight: '12px', paddingBottom: '23px', paddingLeft: '0px'}}>
+                <Button className="btn-cta text-2xl w-full md:w-auto animate-pulse" style={{paddingTop: '18px', paddingRight: '21px', paddingBottom: '23px', paddingLeft: '24px'}}>
                   <Zap className="w-8 h-8 fill-yellow-400 text-yellow-400" />
-                  🔥Today Just ₹49
+                  Today Just ₹49
                 </Button>
               </a>
             </div>
