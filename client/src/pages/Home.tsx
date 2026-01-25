@@ -43,7 +43,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <p className="text-lg md:text-xl font-medium mb-4 text-gray-900">
+            <p className="text-lg md:text-xl font-medium mb-4 text-white py-2 px-4 inline-block" style={{borderRadius: '15px', backgroundColor: '#ab86e3'}}>
               Are You Ready To Elevate Your Editing Skills? Designed For Both Creators And Beginners Get Everything You Need In One Bundle
             </p>
             
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             
             <div className="mb-12">
-              <Button className="btn-cta text-2xl py-8 px-12 w-full md:w-auto animate-pulse">
+              <Button className="btn-cta text-2xl w-full md:w-auto animate-pulse" style={{paddingTop: '26px', paddingRight: '26px', paddingBottom: '31px', paddingLeft: '26px'}}>
                 <Zap className="w-8 h-8 fill-yellow-400 text-yellow-400" />
                 Get Everything Today for Just ₹49
               </Button>
@@ -78,9 +78,9 @@ export default function Home() {
               className="relative mx-auto max-w-2xl"
             >
               <img 
-                src="/images/hero-bundle-box.png" 
+                src="https://nextskillup.in/wp-content/uploads/2025/11/hero1.webp" 
                 alt="Video Editing Bundle Box" 
-                className="w-full h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                className="w-full h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-500" style={{paddingRight: '26px'}}
               />
               
               {/* Floating Elements */}
@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           
           <div className="mt-12">
-            <Button className="btn-cta text-xl py-6 px-10 w-full md:w-auto">
+            <Button className="btn-cta text-xl w-full md:w-auto" style={{paddingTop: '24px', paddingRight: '88px', paddingBottom: '25px', paddingLeft: '87px'}}>
               <Zap className="w-6 h-6 fill-yellow-400 text-yellow-400" />
               Get Everything at ₹49
             </Button>
