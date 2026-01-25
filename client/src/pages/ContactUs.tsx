@@ -1,10 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowLeft, Mail, MapPin, Phone } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function ContactUs() {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SEO 
+        title="Contact Us | Video Editing Bundle"
+        description="Get in touch with our support team for any questions about the video editing bundle or your purchase."
+      />
       <div className="container mx-auto py-12 px-4 max-w-4xl">
         <Link href="/">
           <Button variant="ghost" className="mb-8 pl-0 hover:bg-transparent hover:text-primary">

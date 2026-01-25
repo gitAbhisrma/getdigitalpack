@@ -1,10 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowLeft } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function TermsConditions() {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SEO 
+        title="Terms & Conditions | Video Editing Bundle"
+        description="Review the terms and conditions governing the use of our website and the purchase of our video editing assets."
+      />
       <div className="container mx-auto py-12 px-4 max-w-4xl">
         <Link href="/">
           <Button variant="ghost" className="mb-8 pl-0 hover:bg-transparent hover:text-primary">

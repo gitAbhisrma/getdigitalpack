@@ -1,10 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowLeft } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SEO 
+        title="Privacy Policy | Video Editing Bundle"
+        description="Read our privacy policy to understand how we collect, use, and protect your personal information when you purchase our video editing bundle."
+      />
       <div className="container mx-auto py-12 px-4 max-w-4xl">
         <Link href="/">
           <Button variant="ghost" className="mb-8 pl-0 hover:bg-transparent hover:text-primary">

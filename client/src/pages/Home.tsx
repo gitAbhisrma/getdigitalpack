@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Zap, Check, Star, Download, Play, Music, Type, Layers, Film, Camera, Monitor, Gift, Clock, ShieldCheck, Mail } from "lucide-react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
+import SEO from "@/components/SEO";
 
 export default function Home() {
   const products = [
@@ -45,6 +46,11 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col font-sans">
+      <SEO 
+        title="World's Biggest Video Editing Bundle | 70GB+ Assets for ₹49"
+        description="Get instant access to 70GB+ of pro editing assets including transitions, overlays, fonts, LUTs, FX, and more. Lifetime access for just ₹49!"
+        keywords="video editing bundle, premiere pro assets, after effects templates, video transitions, luts, sound effects, video editing course"
+      />
       {/* Hero Section */}
       <section className="relative bg-hero-gradient bg-grid-pattern text-center py-12 px-4 overflow-hidden">
         <div className="container mx-auto relative z-10">
