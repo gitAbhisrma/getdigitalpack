@@ -319,7 +319,7 @@ export default function Home() {
             </div>
           </div>
           
-          <p style={{paddingRight: '30px', paddingBottom: '36px', paddingLeft: '26px'}}>&copy; 2026 Video Editing Bundle. All rights reserved.</p>
+          <p style={{paddingRight: '30px', paddingBottom: '36px', paddingLeft: '26px'}}>&copy; 2026 getdigitalpack.shop. All rights reserved.</p>
         </div>
       </footer>
     </div>
