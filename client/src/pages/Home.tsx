@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Zap, Check, Star, Download, Play, Music, Type, Layers, Film, Camera, Monitor, Gift, Clock, ShieldCheck } from "lucide-react";
+import { Zap, Check, Star, Download, Play, Music, Type, Layers, Film, Camera, Monitor, Gift, Clock, ShieldCheck, Mail } from "lucide-react";
+import { Link } from "wouter";
 import { motion } from "framer-motion";
 
 export default function Home() {
