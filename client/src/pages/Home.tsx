@@ -206,6 +206,15 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+          {/* Feedback Screenshots */}
+          <div className="max-w-5xl mx-auto mt-12">
+            <img 
+              src="/images/feedback-screenshots.png" 
+              alt="Customer Feedback WhatsApp Screenshots" 
+              className="w-full h-auto rounded-xl shadow-lg border border-gray-100"
+            />
+          </div>
         </div>
       </section>
 
@@ -244,27 +253,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Bonuses Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto text-center max-w-4xl">
-          <p className="text-xl font-medium mb-4">Oh wait! Did we tell you?</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-900">
-            You also get these bonuses absolutely free 🚀
-          </h2>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
-            {[
-              "500+ Premade Reels", "1500+ Motivational Reels", "Chat GPT Prompts", "E-books Pack",
-              "Graphic Design Bundle", "Microsoft Office Kit", "10,000+ Canva Templates", "Instagram Growth Course"
-            ].map((bonus, index) => (
-              <div key={index} className="flex items-center gap-2 p-3 bg-gray-50 rounded-lg border border-gray-100">
-                <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
-                <span className="font-medium text-sm md:text-base">{bonus}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Final CTA Section */}
       <section className="py-20 bg-gray-900 text-white text-center">
