@@ -290,7 +290,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-gray-500 py-12 text-sm">
         <div className="container mx-auto text-center">
-          <div className="flex flex-col items-center mb-8">
+          <div className="flex flex-col items-center mb-8" style={{paddingRight: '39px'}}>
             <div className="flex flex-wrap justify-center gap-6 mb-8">
               <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <Link href="/terms-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
@@ -301,11 +301,11 @@ export default function Home() {
           <div className="flex justify-center mb-8">
             <div className="flex items-center gap-2 text-gray-300 bg-gray-900 px-4 py-2 rounded-full border border-gray-800">
               <Mail className="w-4 h-4 text-blue-400" />
-              <span className="font-medium">abhisheksharmatech99@gmail.com</span>
+              <span className="font-medium" style={{paddingTop: '0px', paddingBottom: '2px'}}>abhisheksharmatech99@gmail.com</span>
             </div>
           </div>
           
-          <p>&copy; 2026 Video Editing Bundle. All rights reserved.</p>
+          <p style={{paddingRight: '30px', paddingBottom: '36px', paddingLeft: '26px'}}>&copy; 2026 Video Editing Bundle. All rights reserved.</p>
         </div>
       </footer>
     </div>
