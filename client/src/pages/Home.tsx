@@ -290,14 +290,23 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-gray-500 py-12 text-sm">
         <div className="container mx-auto text-center">
-          <div className="flex flex-wrap justify-center gap-6 mb-8">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
-            <a href="#" className="hover:text-white transition-colors">Contact Us</a>
+          <div className="flex flex-col items-center mb-8">
+            <div className="flex items-center gap-2 text-gray-300 mb-6 bg-gray-900 px-4 py-2 rounded-full border border-gray-800">
+              <Mail className="w-4 h-4 text-blue-400" />
+              <span className="font-medium">abhisheksharmatech99@gmail.com</span>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-6">
+              <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+              <Link href="/terms-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
+              <Link href="/contact-us" className="hover:text-white transition-colors">Contact Us</Link>
+            </div>
           </div>
-          <p className="max-w-2xl mx-auto mb-8">
-            This site is not a part of the Facebook™ website or Facebook™ Inc. Additionally, This site is NOT endorsed by Facebook™ in any way. FACEBOOK™ is a trademark of FACEBOOK™, Inc.
+          
+          <p className="max-w-2xl mx-auto mb-8 text-xs leading-relaxed opacity-60">
+            As stipulated by law, we can not and do not make any guarantees about your ability to get results or earn any money with my ideas, information, tools or strategies. I just want to help you by giving great content, direction and strategies that worked well for me and my students and that I believe can help you move forward. All of my terms, privacy policies and disclaimers for this program and website can be accessed via the links. I feel transparency is important and I hold ourselves (you & me) to a high standard of integrity. Thanks for stopping by. I hope this training and content brings you a lot of value & results.
           </p>
+          
           <p>&copy; 2026 Video Editing Bundle. All rights reserved.</p>
         </div>
       </footer>
