@@ -60,7 +60,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <p className="text-lg md:text-xl font-medium mb-4 text-white py-2 px-4 inline-block" style={{borderRadius: '15px', backgroundColor: '#ab86e3'}}>
+            <p className="text-lg md:text-xl font-medium mb-4 text-white py-2 px-4 inline-block" style={{borderRadius: '15px', backgroundColor: '#7c3ddb'}}>
               Are You Ready To Elevate Your Editing Skills? Designed For Both Creators And Beginners Get Everything You Need In One Bundle
             </p>
             
