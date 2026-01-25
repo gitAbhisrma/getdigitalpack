@@ -5,26 +5,26 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const products = [
-    { name: "8000+ Transitions", icon: Layers, image: "/images/pack-transitions.png" },
-    { name: "Adobe CC Collection", icon: Monitor, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Camera Rig Overlays", icon: Camera, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Glitch Effects", icon: Zap, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Video Editing Course", icon: Film, image: "/images/pack-course.png" },
-    { name: "Youtube Essential Pack", icon: Play, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "2000+ FX Presets", icon: Layers, image: "/images/pack-luts.png" },
-    { name: "4K Cinematic Film Grain", icon: Film, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Fire Spark Overlays", icon: Zap, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "10,000+ Fonts Collection", icon: Type, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Rain Overlays", icon: Layers, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Smoke Overlays", icon: Layers, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Dust & Snow Overlays", icon: Layers, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Wedding Invitation Pack", icon: Gift, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Lens & Bokeh Overlays", icon: Camera, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Light Leak Overlays", icon: Zap, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Logo Animation Pack", icon: Play, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "Wedding Title Pack", icon: Type, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "100+ After Effects Plugins", icon: Layers, image: "/images/pack-luts.png" }, // Placeholder reuse
-    { name: "100+ Backgrounds", icon: Layers, image: "/images/pack-luts.png" }, // Placeholder reuse
+    { name: "8000+ Transitions", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/1.webp" },
+    { name: "Adobe CC Collection", icon: Monitor, image: "https://nextskillup.in/wp-content/uploads/2025/11/2.webp" },
+    { name: "Camera Rig Overlays", icon: Camera, image: "https://nextskillup.in/wp-content/uploads/2025/11/3.webp" },
+    { name: "Glitch Effects", icon: Zap, image: "https://nextskillup.in/wp-content/uploads/2025/11/4.webp" },
+    { name: "Video Editing Course", icon: Film, image: "https://nextskillup.in/wp-content/uploads/2025/11/5.webp" },
+    { name: "Youtube Essential Pack", icon: Play, image: "https://nextskillup.in/wp-content/uploads/2025/11/6.webp" },
+    { name: "2000+ FX Presets", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/7.webp" },
+    { name: "4K Cinematic Film Grain", icon: Film, image: "https://nextskillup.in/wp-content/uploads/2025/11/8.webp" },
+    { name: "Fire Spark Overlays", icon: Zap, image: "https://nextskillup.in/wp-content/uploads/2025/11/10.webp" },
+    { name: "10,000+ Fonts Collection", icon: Type, image: "https://nextskillup.in/wp-content/uploads/2025/11/9.webp" },
+    { name: "Rain Overlays", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/11-1.webp" },
+    { name: "Smoke Overlays", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/12.webp" },
+    { name: "Dust & Snow Overlays", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/13.webp" },
+    { name: "Wedding Invitation Pack", icon: Gift, image: "https://nextskillup.in/wp-content/uploads/2025/11/16.webp" },
+    { name: "Lens & Bokeh Overlays", icon: Camera, image: "https://nextskillup.in/wp-content/uploads/2025/11/14.webp" },
+    { name: "Light Leak Overlays", icon: Zap, image: "https://nextskillup.in/wp-content/uploads/2025/11/15.webp" },
+    { name: "Logo Animation Pack", icon: Play, image: "https://nextskillup.in/wp-content/uploads/2025/11/17.webp" },
+    { name: "Wedding Title Pack", icon: Type, image: "https://nextskillup.in/wp-content/uploads/2025/11/20.webp" },
+    { name: "100+ After Effects Plugins", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/18.webp" },
+    { name: "100+ Backgrounds", icon: Layers, image: "https://nextskillup.in/wp-content/uploads/2025/11/19.webp" },
   ];
 
   const categories = [
