@@ -6,69 +6,13 @@ import SEO from "@/components/SEO";
 import { Search, ShoppingCart } from "lucide-react";
 
 export default function Shop() {
-  // Placeholder data for shop items based on the video editing bundle theme
+  // Shop items
   const shopItems = [
     {
       id: 1,
-      title: "Ultimate Transition Pack Vol. 1",
-      category: "TRANSITIONS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/1.webp",
-      price: "₹49"
-    },
-    {
-      id: 2,
-      title: "Cinematic LUTs Collection",
-      category: "LUTS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/21.webp",
-      price: "₹49"
-    },
-    {
-      id: 3,
-      title: "Pro Sound Effects Library",
-      category: "SOUNDS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/22.webp",
-      price: "₹49"
-    },
-    {
-      id: 4,
-      title: "YouTube Essential Graphics",
-      category: "TEMPLATES",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/6.webp",
-      price: "₹49"
-    },
-    {
-      id: 5,
-      title: "Glitch & Distortion Overlays",
-      category: "OVERLAYS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/4.webp",
-      price: "₹49"
-    },
-    {
-      id: 6,
-      title: "Animated Emoji Pack",
-      category: "GRAPHICS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/23.webp",
-      price: "₹49"
-    },
-    {
-      id: 7,
-      title: "Film Grain & Textures",
-      category: "OVERLAYS",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/8.webp",
-      price: "₹49"
-    },
-    {
-      id: 8,
-      title: "Lower Thirds Bundle",
-      category: "TEMPLATES",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/25.webp",
-      price: "₹49"
-    },
-    {
-      id: 9,
-      title: "Wedding Title Animations",
-      category: "TITLES",
-      image: "https://nextskillup.in/wp-content/uploads/2025/11/20.webp",
+      title: "Ultimate Premiere Pro Bundle",
+      category: "BUNDLE",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663292966701/FTCllnmjuUYBIMJd.webp",
       price: "₹49"
     }
   ];
