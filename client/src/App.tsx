@@ -4,7 +4,8 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
+import Home from "@/pages/Home";
+import Shop from "@/pages/Shop";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import ContactUs from "./pages/ContactUs";
@@ -13,7 +14,8 @@ import ContactUs from "./pages/ContactUs";
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
+      <Route path="/" component={Home} />
+      <Route path="/shop" component={Shop} />
       <Route path={"/privacy-policy"} component={PrivacyPolicy} />
       <Route path={"/terms-conditions"} component={TermsConditions} />
       <Route path={"/contact-us"} component={ContactUs} />
