@@ -84,17 +84,15 @@ export default function Shop() {
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Link href="/">
-            <div className="text-xl md:text-2xl font-black text-gray-900 tracking-tight cursor-pointer">
-              GET DIGITAL PACK
-            </div>
+          <Link href="/" className="text-xl md:text-2xl font-black text-gray-900 tracking-tight cursor-pointer">
+            GET DIGITAL PACK
           </Link>
           <nav className="flex items-center gap-6">
-            <Link href="/">
-              <a className="text-gray-700 hover:text-primary font-bold text-lg transition-colors">Home</a>
+            <Link href="/" className="text-gray-700 hover:text-primary font-bold text-lg transition-colors">
+              Home
             </Link>
-            <Link href="/shop">
-              <a className="text-primary font-bold text-lg transition-colors">Shop</a>
+            <Link href="/shop" className="text-primary font-bold text-lg transition-colors">
+              Shop
             </Link>
             <Search className="w-5 h-5 text-gray-600 cursor-pointer hover:text-primary transition-colors" />
           </nav>
@@ -104,7 +102,7 @@ export default function Shop() {
       {/* Breadcrumb & Title */}
       <div className="container mx-auto px-4 py-8">
         <div className="text-sm text-gray-500 mb-4">
-          <Link href="/"><span className="hover:text-primary cursor-pointer">Home</span></Link>
+          <Link href="/" className="hover:text-primary cursor-pointer">Home</Link>
           <span className="mx-2">/</span>
           <span className="text-gray-900 font-medium">Shop</span>
         </div>
@@ -174,9 +172,9 @@ export default function Shop() {
               <p className="text-gray-400 text-sm">Premium assets for modern creators.</p>
             </div>
             <div className="flex gap-6 text-sm font-medium text-gray-400">
-              <Link href="/"><a className="hover:text-white transition-colors">Home</a></Link>
-              <Link href="/shop"><a className="hover:text-white transition-colors">Shop</a></Link>
-              <Link href="/contact"><a className="hover:text-white transition-colors">Contact</a></Link>
+              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <Link href="/shop" className="hover:text-white transition-colors">Shop</Link>
+              <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">

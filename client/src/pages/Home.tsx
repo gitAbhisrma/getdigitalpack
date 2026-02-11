@@ -58,10 +58,8 @@ export default function Home() {
             GET DIGITAL PACK
           </div>
           <nav>
-            <Link href="/shop">
-              <a className="text-gray-700 hover:text-primary font-bold text-lg transition-colors flex items-center gap-2">
-                Shop
-              </a>
+            <Link href="/shop" className="text-gray-700 hover:text-primary font-bold text-lg transition-colors flex items-center gap-2">
+              Shop
             </Link>
           </nav>
         </div>
