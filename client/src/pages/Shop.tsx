@@ -10,10 +10,10 @@ export default function Shop() {
   const shopItems = [
     {
       id: 1,
-      title: "Ultimate Premiere Pro Bundle",
+      title: "Premiere Pro Ultimate Preset Bundle | 9 Premium Packs (1000+ Presets)",
       category: "BUNDLE",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663292966701/FTCllnmjuUYBIMJd.webp",
-      price: "₹49"
+      price: "₹99"
     }
   ];
 
@@ -68,6 +68,7 @@ export default function Shop() {
                     src={item.image} 
                     alt={item.title} 
                     className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
+                    style={{ width: "313px", height: "250px" }}
                   />
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                     <span className="bg-green-500 text-white text-xs font-bold px-3 py-1 uppercase tracking-wider rounded-sm shadow-md">
