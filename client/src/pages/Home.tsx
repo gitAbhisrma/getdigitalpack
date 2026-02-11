@@ -51,6 +51,20 @@ export default function Home() {
         description="Get instant access to 70GB+ of pro editing assets including transitions, overlays, fonts, LUTs, FX, and more. Lifetime access for just ₹49!"
         keywords="video editing bundle, premiere pro assets, after effects templates, video transitions, luts, sound effects, video editing course"
       />
+      {/* Header */}
+      <header className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <div className="text-xl md:text-2xl font-black text-gray-900 tracking-tight">
+            GET DIGITAL PACK
+          </div>
+          <nav>
+            <a href="#" className="text-gray-700 hover:text-primary font-bold text-lg transition-colors flex items-center gap-2">
+              Shop
+            </a>
+          </nav>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative bg-hero-gradient bg-grid-pattern text-center py-12 px-4 overflow-hidden">
         <div className="container mx-auto relative z-10">
