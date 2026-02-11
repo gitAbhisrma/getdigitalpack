@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             
             <div className="mb-12">
-              <a href="https://superprofile.bio/vp/sJglScoB" target="_blank" rel="noopener noreferrer">
+              <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-cta text-2xl w-full md:w-auto animate-pulse" style={{paddingTop: '18px', paddingRight: '21px', paddingBottom: '23px', paddingLeft: '24px'}}>
                   <Zap className="w-8 h-8 fill-yellow-400 text-yellow-400" />
                   Today Just ₹49
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
           
           <div className="mt-12">
-            <a href="https://superprofile.bio/vp/sJglScoB" target="_blank" rel="noopener noreferrer">
+            <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
               <Button className="btn-cta text-xl w-full md:w-auto" style={{paddingTop: '24px', paddingRight: '88px', paddingBottom: '25px', paddingLeft: '87px'}}>
                 <Zap className="w-6 h-6 fill-yellow-400 text-yellow-400" />
                 Get Everything at ₹49
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
           
           <div className="mt-16 text-center">
-            <a href="https://superprofile.bio/vp/sJglScoB" target="_blank" rel="noopener noreferrer">
+            <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
               <Button className="btn-cta text-xl py-6 px-10 w-full md:w-auto bg-white text-primary hover:bg-gray-100">
                 <Zap className="w-6 h-6 fill-yellow-400 text-yellow-400" />
                 Get Everything at ₹49
@@ -295,7 +295,7 @@ export default function Home() {
           <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 mb-12">
             <h3 className="text-2xl font-bold mb-4">World's Biggest Video Editing Bundle!</h3>
             <p className="text-sm text-gray-300 mb-8">*Lifetime Access - One-Time Payment - Instant Access - 100% Risk Free*</p>
-            <a href="https://superprofile.bio/vp/sJglScoB" target="_blank" rel="noopener noreferrer">
+            <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
               <Button className="btn-cta text-2xl py-8 px-12 w-full animate-pulse shadow-orange-500/20">
                 <Zap className="w-8 h-8 fill-yellow-400 text-yellow-400" />
                 Get Everything at ₹49
