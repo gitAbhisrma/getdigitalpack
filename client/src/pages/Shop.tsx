@@ -86,7 +86,7 @@ export default function Shop() {
                     {item.title}
                   </h3>
                   <div className="mt-auto pt-4 w-full">
-                    <a href="https://superprofile.bio/vp/creator-pro" target="_blank" rel="noopener noreferrer">
+                    <a href="https://spf.bio/ool6l" target="_blank" rel="noopener noreferrer">
                       <Button className="w-full bg-gray-900 hover:bg-primary text-white font-bold py-2 rounded transition-colors duration-300">
                         Buy Now - {item.price}
                       </Button>
